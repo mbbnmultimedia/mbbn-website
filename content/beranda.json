@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "label_tahun": "Sejak 2005",
+    "label": "Sekolah Kristen · PAUD & PKBM",
+    "nama": "Sekolah Mutiara Bagi Bangsa Nusantara",
+    "judul": "Merampas mereka",
+    "judul_sorot": "dari api.",
+    "ayat": "“Selamatkanlah mereka dengan jalan merampas mereka dari api.”",
+    "ayat_ref": "Yudas 1:23",
+    "teks": "Kami percaya lebih baik menjangkau anak sejak usia dini. Melalui pendidikan yang berpusat kepada Kristus dan pembentukan karakter setiap hari, kami mendampingi anak bertumbuh cerdas, berkarakter, dan takut akan TUHAN.",
+    "tombol_daftar": "Daftar Sekarang →",
+    "tombol_kunjungan": "Jadwalkan Kunjungan",
+    "foto": "assets/uploads/hero.webp",
+    "foto_alt": "Murid MBBN bergandengan tangan membentuk lingkaran"
+  },
+  "tentang": {
+    "label": "Tentang Kami",
+    "judul": "Lahir dari",
+    "judul_sorot": "panggilan hati.",
+    "teks": "Sekolah MBBN berdiri pada Juli 2005 dengan 45 murid TK dari keluarga pra-sejahtera dan 8 guru. Kini kami melayani jenjang PAUD dan SD (PKBM) di Pluit, Jakarta Utara, sekaligus menjadi pusat pelatihan bagi guru dari berbagai daerah di Indonesia.",
+    "tombol": "Selengkapnya tentang kami →",
+    "foto_besar": "assets/uploads/about.webp",
+    "foto_kecil": "assets/uploads/ibadah.webp"
+  },
+  "statistik": [
+    {
+      "angka": "20+",
+      "label": "Tahun Pengalaman"
+    },
+    {
+      "angka": "41",
+      "label": "Murid Aktif"
+    },
+    {
+      "angka": "19",
+      "label": "Guru & Staf"
+    },
+    {
+      "angka": "100+",
+      "label": "Alumni"
+    }
+  ],
+  "jenjang": {
+    "label": "Jenjang Pendidikan",
+    "judul": "Dua jenjang,",
+    "judul_sorot": "satu keluarga.",
+    "teks": "Kurikulum Merdeka dipadukan dengan pendidikan karakter, dalam suasana belajar yang hangat dan berpusat kepada Kristus. Kedua jenjang sudah terakreditasi.",
+    "tombol": "Lihat program pembelajaran →"
+  },
+  "kabar": {
+    "label": "Ada Apa di MBBN",
+    "judul": "Kabar & Kegiatan Terbaru",
+    "tombol": "Lihat semua kabar →"
+  },
+  "alumni": {
+    "label": "Suara Alumni",
+    "teks_kosong": "Sejak 2005, ratusan anak telah lulus dari Sekolah MBBN. Cerita mereka akan segera kami bagikan di sini.",
+    "judul_kosong": "Anda alumni Sekolah MBBN?",
+    "subjudul_kosong": "Kami rindu mendengar cerita Anda."
+  }
+}

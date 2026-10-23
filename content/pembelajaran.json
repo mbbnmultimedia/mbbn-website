@@ -1,0 +1,146 @@
+{
+  "banner": {
+    "judul": "Pembelajaran",
+    "teks": "Kurikulum Merdeka dan pendidikan karakter, dengan Kristus sebagai pusat dari setiap ilmu yang diajarkan."
+  },
+  "paud": {
+    "label": "PAUD / TK",
+    "judul": "Mengenal Tuhan",
+    "judul_sorot": "sejak usia dini.",
+    "judul_kartu": "Mengenal Tuhan sejak usia dini",
+    "teks": "Karakter Kristus menjadi pusat sejak usia dini, dikenalkan lewat pembelajaran interaktif dengan berbagai media: cerita Alkitab, lagu, permainan, dan karya tangan.",
+    "poin": [
+      "Belajar lewat bermain, bercerita, dan berkreasi",
+      "Melatih motorik halus dan keberanian berekspresi",
+      "Mengenal budaya Indonesia, seperti membatik di Hari Batik",
+      "Pembiasaan karakter setiap hari"
+    ],
+    "foto": "assets/uploads/n_paud.webp"
+  },
+  "sd": {
+    "label": "SD · PKBM",
+    "judul": "Melihat karya Tuhan lewat",
+    "judul_sorot": "Ilmu Pengetahuan.",
+    "judul_kartu": "Melihat karya Tuhan lewat Ilmu Pengetahuan",
+    "teks": "Matematika, IPAS, dan Bahasa diajarkan sebagai jendela untuk mengenal TUHAN Sang Pencipta, sambil membangun dasar akademik yang kuat.",
+    "poin": [
+      "Pendidikan kesetaraan tingkat SD (PKBM)",
+      "Asesmen sumatif tengah dan akhir semester",
+      "Parent-Teacher Meeting dan rapor berkala",
+      "Lomba dan kegiatan antar-sekolah"
+    ],
+    "foto": "assets/uploads/g1.webp"
+  },
+  "kurikulum": {
+    "label": "Kurikulum",
+    "judul": "Tiga sumber,",
+    "judul_sorot": "satu arah.",
+    "items": [
+      {
+        "judul": "Kurikulum Merdeka",
+        "teks": "Kurikulum nasional sebagai kerangka akademik untuk PAUD dan SD."
+      },
+      {
+        "judul": "Character First Education",
+        "teks": "Materi pendidikan karakter dari Amerika Serikat untuk pembiasaan karakter harian."
+      },
+      {
+        "judul": "Character Sketches",
+        "teks": "Materi karakter dari IBLP (Amerika Serikat) yang menautkan karakter dengan kisah Alkitab."
+      }
+    ]
+  },
+  "rohani": {
+    "label": "Kebiasaan Rohani Harian",
+    "judul": "Firman TUHAN dalam keseharian sekolah.",
+    "items": [
+      {
+        "judul": "Ibadah Harian",
+        "teks": "Setiap pagi sebelum kegiatan dimulai, murid membaca, mendengar, menulis, dan merenungkan Firman TUHAN."
+      },
+      {
+        "judul": "Menghafal Ayat",
+        "teks": "Murid dan guru menghafal satu ayat setiap minggu dan mengucapkannya dengan lantang setiap hari."
+      },
+      {
+        "judul": "Gerakan Baca Alkitab",
+        "teks": "Guru dan staf berkomitmen membaca tiga pasal Alkitab setiap hari untuk bertumbuh secara rohani."
+      }
+    ]
+  },
+  "dasar": {
+    "label": "Dasar & Pendekatan Alkitabiah",
+    "ayat": "“Demikianlah firman-KU yang keluar dari mulut-KU: ia tidak akan kembali kepada-KU dengan sia-sia, tetapi ia akan melaksanakan apa yang KU-kehendaki.”",
+    "ayat_ref": "Yesaya 55:11",
+    "pengantar": "Di tengah banyaknya teori pendidikan, Sekolah MBBN memilih untuk tidak berspekulasi. Pendekatan Alkitabiah bukan sekadar tempelan ayat, melainkan keyakinan bahwa:",
+    "poin": [
+      {
+        "judul": "Firman adalah benih yang berhasil",
+        "teks": "Firman memiliki kuasa yang memberi kepastian hasil di tengah spekulasi dunia."
+      },
+      {
+        "judul": "Orientasi kekekalan",
+        "teks": "Setiap proses belajar-mengajar adalah investasi yang menembus waktu hingga kekekalan."
+      },
+      {
+        "judul": "Jaminan hasil",
+        "teks": "Guru dan staf bekerja dengan standar keunggulan karena percaya pada kedaulatan TUHAN atas setiap benih yang ditabur."
+      }
+    ]
+  },
+  "lulusan": {
+    "label": "Profil Lulusan",
+    "judul": "Bukan hanya unggul secara akademis.",
+    "teks": "Kami berkomitmen melahirkan lulusan dengan lima kualifikasi berikut.",
+    "items": [
+      {
+        "judul": "Cara pandang Alkitabiah",
+        "teks": "Memiliki lensa Alkitabiah untuk melihat diri sendiri, sesama, dan dunia."
+      },
+      {
+        "judul": "Berdampak bagi komunitas",
+        "teks": "Memiliki kemauan dan kemampuan menjadi agen perubahan bagi bangsa."
+      },
+      {
+        "judul": "Bijaksana & takut akan TUHAN",
+        "teks": "Peka membedakan yang baik dan jahat, serta menjaga integritas."
+      },
+      {
+        "judul": "Bertindak dengan tujuan",
+        "teks": "Memiliki tujuan yang jelas dalam setiap tindakan dan keputusan."
+      },
+      {
+        "judul": "Berpengetahuan luas",
+        "teks": "Berwawasan luas dan cerdas secara kompetitif untuk menjadi berkat."
+      }
+    ]
+  },
+  "guru": {
+    "label": "Hati Seorang Guru MBBN",
+    "judul": "Pembawa citra TUHAN",
+    "judul_sorot": "di dalam kelas.",
+    "teks": "Seorang guru di Sekolah MBBN bukan sekadar menyusun strategi mengajar, tetapi membawa kejelasan bagi muridnya dan menjadikan kebenaran TUHAN nyata lewat kata dan tindakan.",
+    "peran": [
+      {
+        "judul": "Kurikulum yang Hidup",
+        "teks": "Guru adalah “buku teks” terpenting yang dibaca murid lewat setiap kata dan tindakannya.",
+        "ayat_ref": ""
+      },
+      {
+        "judul": "Gembala",
+        "teks": "Mengenal setiap murid satu per satu, beserta kekuatan dan pergumulannya.",
+        "ayat_ref": "Yehezkiel 34:16"
+      },
+      {
+        "judul": "Penabur",
+        "teks": "Setia menabur benih kebenaran, percaya TUHAN yang memberi pertumbuhan.",
+        "ayat_ref": "1 Korintus 3:6"
+      },
+      {
+        "judul": "Pengelola",
+        "teks": "Setiap murid adalah titipan TUHAN, dilayani dengan keunggulan dan integritas.",
+        "ayat_ref": "Kolose 3:23"
+      }
+    ]
+  }
+}

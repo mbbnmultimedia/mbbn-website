@@ -590,3 +590,11 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 
 .bcard .cv{position:relative;overflow:hidden}
 .bcard .cv img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+
+.igpost .im .play{position:absolute;right:12px;top:12px;width:34px;height:34px;border-radius:50%;background:rgba(8,42,78,.65);display:grid;place-items:center}
+.aph{overflow:hidden}
+.aph img{width:100%;height:100%;object-fit:cover}
+.ac.empty .aph{background:#fff;border:1.5px solid var(--line)}
+.ac.empty .aph img{object-fit:contain;padding:6px}
+.ac.empty blockquote{font-style:normal;color:var(--navy)}
+.vc-pic img{object-fit:cover}

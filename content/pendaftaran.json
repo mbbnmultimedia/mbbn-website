@@ -1,0 +1,37 @@
+{
+  "banner": {
+    "judul": "Pendaftaran",
+    "teks": "Empat langkah bergabung dengan keluarga Sekolah MBBN."
+  },
+  "langkah": [
+    {
+      "judul": "Hubungi sekolah",
+      "teks": "Isi formulir di bawah atau hubungi WhatsApp sekolah untuk info jenjang, biaya, dan persyaratan."
+    },
+    {
+      "judul": "Kunjungan",
+      "teks": "Datang ke sekolah untuk mengenal lingkungan belajar, guru, dan kegiatan sehari-hari."
+    },
+    {
+      "judul": "Observasi",
+      "teks": "Pertemuan dengan anak dan orang tua, disesuaikan dengan jenjang yang dituju."
+    },
+    {
+      "judul": "Daftar ulang",
+      "teks": "Melengkapi berkas dan administrasi, lalu anak siap bergabung."
+    }
+  ],
+  "kontak": {
+    "label": "Hubungi & Kunjungi",
+    "judul": "Kami senang",
+    "judul_sorot": "bertemu Anda."
+  },
+  "formulir": {
+    "judul": "Formulir Minat Pendaftaran",
+    "teks": "Isi data di bawah, lalu kirim lewat WhatsApp sekolah.",
+    "jenjang": [
+      "PAUD / TK",
+      "SD (PKBM)"
+    ]
+  }
+}

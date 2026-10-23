@@ -1,0 +1,51 @@
+{
+  "banner": {
+    "judul": "Kabar & Kegiatan",
+    "teks": "Keceriaan belajar dan kegiatan terbaru di Sekolah MBBN."
+  },
+  "buletin": {
+    "label": "Buletin MBBN",
+    "judul": "Rangkuman kegiatan setiap bulan",
+    "teks": "Baca buletin sekolah tiga bulan terakhir dalam format flipbook."
+  },
+  "kegiatan": {
+    "label": "Dari Instagram",
+    "judul": "Kegiatan terbaru"
+  },
+  "kartu_instagram": {
+    "judul": "Kabar harian ada di Instagram",
+    "teks": "Ikuti kegiatan sehari-hari Sekolah MBBN di akun resmi kami."
+  },
+  "cadangan": [
+    {
+      "tanggal": "SEP 2026",
+      "judul": "Lomba Apresiasi Peserta Didik Pendidikan Kesetaraan Jakarta Utara",
+      "teks": "Murid MBBN ikut ambil bagian dalam lomba tingkat Kota Administrasi Jakarta Utara, pengalaman berharga untuk mengembangkan potensi, kreativitas, dan rasa percaya diri.",
+      "foto": "assets/uploads/n_lomba.webp"
+    },
+    {
+      "tanggal": "2 OKT",
+      "judul": "Murid PAUD Membatik dengan Cat Air",
+      "teks": "Memperingati Hari Batik, anak-anak PAUD membuat motif batik sederhana sambil mengenal kekayaan budaya Indonesia.",
+      "foto": "assets/uploads/n_paud.webp"
+    },
+    {
+      "tanggal": "19 SEP",
+      "judul": "Parent-Teacher Meeting",
+      "teks": "Penerimaan rapor bayangan semester I, saat orang tua dan guru bersama melihat perkembangan belajar setiap anak.",
+      "foto": "assets/uploads/n_ptm.webp"
+    },
+    {
+      "tanggal": "25 SEP",
+      "judul": "Devotion Guru dan Staf",
+      "teks": "Pembekalan rohani bersama perwakilan gereja naungan untuk memperbarui semangat pelayanan.",
+      "foto": "assets/uploads/n_devotion.webp"
+    },
+    {
+      "tanggal": "7–11 SEP",
+      "judul": "Asesmen Sumatif Tengah Semester I",
+      "teks": "Seluruh murid mengikuti asesmen dengan tertib dan bertanggung jawab sebagai evaluasi pembelajaran pertengahan semester.",
+      "foto": "assets/uploads/n_asts.webp"
+    }
+  ]
+}

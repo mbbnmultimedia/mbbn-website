@@ -1,67 +1,54 @@
 # Website Sekolah Mutiara Bagi Bangsa Nusantara
 
-Website statis (HTML + CSS + JS) untuk Sekolah MBBN, di-hosting di **Cloudflare Pages** dari repo GitHub ini. Tidak ada proses build: file di repo inilah yang langsung tampil di website.
+Semua teks dan foto website diedit lewat **Pages CMS**. Desain ada di kode; isi ada di folder `content/`. Setiap kali konten disimpan, Cloudflare membangun ulang website (sekitar 1–2 menit).
 
 ## Struktur
 
 ```
-index.html            Beranda
-tentang.html          Tentang Kami (sejarah, visi-misi, budaya, yayasan & gereja naungan)
-pembelajaran.html     PAUD, SD (PKBM), kurikulum, dasar Alkitabiah, profil lulusan
-kabar.html            Buletin + kegiatan terbaru (feed Instagram)
-suara-alumni.html     Kesaksian alumni
-pendaftaran.html      Alur pendaftaran + formulir ke WhatsApp
-ikut-terlibat.html    Doa, dana, daya + rekening & QRIS
-404.html              Halaman "tidak ditemukan"
-assets/style.css      Semua tampilan
-assets/app.js         Menu, slider misi, formulir WA, feed Instagram, dll.
-assets/*.webp|png     Foto & logo
-_headers              Aturan cache untuk Cloudflare Pages
+content/          Isi website per halaman (JSON) — diedit lewat CMS
+  beranda.json · tentang.json · pembelajaran.json · kabar.json · buletin.json
+  alumni.json · pendaftaran.json · ikut-terlibat.json · settings.json
+assets/           CSS, JS, logo
+assets/uploads/   Foto yang bisa diganti lewat CMS
+src/lib.mjs       Layout bersama (header, footer, helper)
+src/pages.mjs     Template tiap halaman
+build.mjs         Membangun website ke folder _site/
+wrangler.jsonc    Konfigurasi Cloudflare Workers (menyajikan _site/)
+.pages.yml        Konfigurasi menu & kolom di Pages CMS
 ```
 
-## Deploy pertama kali
+## Mengedit konten (untuk staf)
 
-### 1. Buat repo di GitHub
-1. Login ke github.com, klik **New repository**.
-2. Nama: `mbbn-website` (bebas). Pilih **Private** atau **Public**. Jangan centang "Add a README".
-3. Klik **Create repository**.
-4. Di halaman repo kosong, klik **uploading an existing file**, lalu seret **seluruh isi folder ini** (bukan foldernya) ke browser, termasuk folder `assets`.
-5. Klik **Commit changes**.
+1. Buka **app.pagescms.org** dan masuk dengan akun GitHub.
+2. Pilih repo `mbbn-website`.
+3. Pilih menu halaman di kiri: **Beranda, Tentang Kami, Pembelajaran, Kabar & Kegiatan, Buletin, Suara Alumni, Pendaftaran, Ikut Terlibat, Pengaturan Sekolah**.
+4. Ubah teks atau unggah foto, lalu klik **Save**.
+5. Tunggu 1–2 menit, lalu buka website (refresh dengan Ctrl+F5 bila perlu).
 
-Atau lewat terminal:
+Tips:
+- Teks panjang: pisahkan paragraf dengan **baris kosong**. Tulis `**kata**` untuk huruf tebal (hanya di kolom yang menyebutkannya).
+- Foto: ikuti rasio yang disebut di label kolom (mis. 1:1 untuk foto hero). Kompres dulu ke lebar ±1200 px.
+- Kolom "Judul (bagian berwarna biru)" adalah potongan judul yang tampil biru.
+- Menambah editor: undang akun GitHub mereka di repo (Settings → Collaborators).
+
+## Pengaturan Cloudflare (sekali saja)
+
+Di proyek Worker `mbbn-website`: **Settings → Build**
+- Build command: `npm run build`
+- Deploy command: `npx wrangler deploy`
+- Root directory: `/`
+
+Nama Worker harus sama dengan `name` di `wrangler.jsonc` (`mbbn-website`).
+
+## Mencoba di komputer sendiri (opsional)
+
 ```bash
-cd mbbn-website
-git init -b main
-git add .
-git commit -m "Website awal Sekolah MBBN"
-git remote add origin https://github.com/<akun-anda>/mbbn-website.git
-git push -u origin main
+npm run build          # hasil di _site/
+npx serve _site        # buka http://localhost:3000
 ```
 
-### 2. Sambungkan ke Cloudflare Pages
-1. Login ke dash.cloudflare.com, buka **Workers & Pages**, lalu **Create**, pilih tab **Pages**, lalu **Connect to Git**.
-2. Izinkan Cloudflare mengakses GitHub, pilih repo `mbbn-website`.
-3. Pengaturan build:
-   - Framework preset: **None**
-   - Build command: *(kosongkan)*
-   - Build output directory: `/`
-4. Klik **Save and Deploy**. Dalam 1-2 menit website online di `https://<nama-proyek>.pages.dev`.
+Butuh Node.js 18 ke atas. Tidak ada dependensi yang perlu di-install.
 
-Setiap kali ada perubahan yang di-commit ke branch `main`, Cloudflare otomatis memperbarui website.
+## Mengubah desain
 
-### 3. Domain (nanti)
-Setelah domain (mis. `mbbn.sch.id`) aktif: di proyek Pages buka **Custom domains**, lalu **Set up a domain**, dan ikuti petunjuknya (arahkan nameserver domain ke Cloudflare).
-
-## Mengubah konten yang sering diganti
-
-| Yang diubah | File | Cari teks |
-|---|---|---|
-| Feed Instagram (Feed ID Behold.so) | `assets/app.js` | `var BEHOLD_FEED_ID = '';` |
-| Link Google Form "Saya mau terlibat" | `ikut-terlibat.html` | `Saya mau terlibat` |
-| Link 3 buletin terakhir | `index.html` dan `kabar.html` | `heyzine.com` |
-| Nomor WhatsApp | semua file `.html` + `assets/app.js` | `6285711060828` |
-| Kesaksian alumni | `suara-alumni.html` | `[Nama Alumni]` |
-
-Di GitHub, buka file-nya, klik ikon pensil (Edit), ubah, lalu **Commit changes**. Website ikut berubah sekitar 1 menit kemudian.
-
-> Rencana berikutnya: memasang CMS (Pages CMS) supaya konten bisa diubah lewat formulir tanpa menyentuh kode.
+Tampilan ada di `assets/style.css`, struktur halaman di `src/pages.mjs`, layout bersama di `src/lib.mjs`. Setelah menambah kolom baru di template, tambahkan juga kolomnya di `.pages.yml` supaya muncul di CMS.

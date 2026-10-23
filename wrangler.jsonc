@@ -1,0 +1,9 @@
+{
+  // Konfigurasi Cloudflare Workers: menyajikan hasil build di folder _site
+  "name": "mbbn-website",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./_site",
+    "not_found_handling": "404-page"
+  }
+}

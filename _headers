@@ -1,5 +1,9 @@
 /assets/*
   Cache-Control: public, max-age=604800
 
+/assets/uploads/*
+  Cache-Control: public, max-age=3600
+
+
 /*.html
   Cache-Control: public, max-age=0, must-revalidate

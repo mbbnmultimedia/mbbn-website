@@ -1,0 +1,124 @@
+{
+  "banner": {
+    "judul": "Tentang Kami",
+    "teks": "Lebih dari dua dekade menjangkau anak-anak melalui pendidikan yang berpusat kepada Kristus."
+  },
+  "sejarah": {
+    "label": "Panggilan & Sejarah",
+    "judul": "Merampas mereka",
+    "judul_sorot": "sejak usia dini.",
+    "isi": "Keberadaan Sekolah MBBN lahir dari panggilan hati yang mendalam. Visinya bermula dari kepedulian **Gereja Morning Star Indonesia** (kini Every Nation Jakarta) terhadap pendidikan bagi masyarakat pra-sejahtera, yang kemudian ditangkap dan dikerjakan oleh **Ibu Odilia Zulkarnaen**.\n\nSebelum terjun ke dunia pendidikan, Ibu Odilia melayani di panti rehabilitasi narkoba. Di sana beliau melihat kenyataan pahit: banyak yang telah pulih secara rohani, namun tubuhnya sudah rusak parah sehingga tak lama kemudian berpulang, meninggalkan anak-anak yang tumbuh tanpa figur orang tua.\n\nDari pergumulan itu lahir keyakinan yang kuat: daripada merampas mereka saat sudah hancur oleh narkoba, **lebih baik merampas mereka sejak usia dini melalui pendidikan**. Inilah alasan Ibu Odilia memberikan hidupnya untuk memperlengkapi anak-anak melalui pendidikan Alkitabiah dan pembentukan karakter.\n\nLebih dari sekadar sekolah, MBBN berkembang menjadi **pusat pelatihan bagi para pendidik** dari berbagai daerah di Indonesia, sekaligus tempat persemaian: beberapa guru yang pernah melayani di sini diutus kembali ke daerah asal atau merintis sekolah baru di tempat TUHAN memanggil mereka.",
+    "ayat": "“Selamatkanlah mereka dengan jalan merampas mereka dari api.”",
+    "ayat_ref": "Yudas 1:23",
+    "ayat_catatan": "Ayat yang menjadi landasan pelayanan dan budaya Sekolah MBBN hingga hari ini.",
+    "timeline": [
+      {
+        "waktu": "Juli 2005",
+        "teks": "Diresmikan sebagai PKBM di bawah Yayasan Mutiara Bagi Bangsa Nusantara, di sebuah ruko di Jl. Tebet Raya No. 43, Jakarta Selatan. Angkatan perintis: 45 murid TK dari keluarga pra-sejahtera, didampingi 8 guru."
+      },
+      {
+        "waktu": "2007",
+        "teks": "Seiring bertambahnya murid, sekolah pindah ke Teluk Gong."
+      },
+      {
+        "waktu": "2019",
+        "teks": "Menetap di ruko daerah Pluit, Jakarta Utara, hingga sekarang."
+      },
+      {
+        "waktu": "Juni 2024",
+        "teks": "Yayasan Dian Pelita Kasih menerima estafet naungan hukum Sekolah MBBN dari Yayasan Mutiara Bagi Bangsa Nusantara."
+      }
+    ]
+  },
+  "visi": {
+    "teks": "Menghormati TUHAN dengan membangun bangsa melalui pendidikan yang",
+    "teks_sorot": "berpusat kepada Kristus."
+  },
+  "misi": [
+    {
+      "judul": "Memberikan pendidikan yang berpusat kepada Kristus kepada seluruh murid.",
+      "penjelasan": "Kita percaya semua kebenaran berasal dari TUHAN, sehingga Kristus bukan sekadar bagian dari kurikulum, melainkan pusat dari setiap ilmu pengetahuan dan aktivitas yang kita ajarkan."
+    },
+    {
+      "judul": "Menjangkau anak-anak dari keluarga pra-sejahtera melalui pendidikan.",
+      "penjelasan": "Kita percaya anak-anak pra-sejahtera memiliki hak yang sama untuk mendapat pendidikan yang benar dan berpusat pada Kristus, sehingga cara pandang mereka dapat diubah dan diperbarui."
+    },
+    {
+      "judul": "Mengajarkan murid untuk memiliki cara pandang yang berdasarkan Firman TUHAN.",
+      "penjelasan": "Kita percaya Firman TUHAN adalah standar kebenaran mutlak bagi murid untuk menilai segala sesuatu dan mengambil keputusan."
+    },
+    {
+      "judul": "Menumbuhkan semangat belajar dalam diri setiap murid.",
+      "penjelasan": "Kita percaya belajar bukan beban yang harus dipikul, melainkan semangat yang harus ditumbuhkan, sehingga murid mencapai potensi yang TUHAN berikan."
+    },
+    {
+      "judul": "Melibatkan orang tua secara aktif dalam pendidikan anak.",
+      "penjelasan": "Kita percaya orang tua adalah pendidik utama yang ditetapkan TUHAN. Sekolah berperan sebagai mitra strategis agar tujuan pendidikan anak tercapai."
+    },
+    {
+      "judul": "Memperlengkapi guru-guru dengan kompetensi untuk mendidik murid berdasarkan nilai-nilai Kristiani.",
+      "penjelasan": "Kita percaya setiap pendidik harus terus diperlengkapi untuk mendidik berdasarkan nilai Kristiani dan standar kompetensi yang unggul."
+    }
+  ],
+  "budaya": {
+    "label": "Budaya Sekolah",
+    "judul": "Visi yang diterjemahkan menjadi",
+    "judul_sorot": "tindakan nyata.",
+    "teks": "Bagi Sekolah MBBN, melayani berarti upaya aktif menarik generasi muda keluar dari pengaruh dunia yang merusak dan menempatkan mereka kembali pada rancangan TUHAN yang semula, melalui dua pilar utama.",
+    "pilar": [
+      {
+        "judul": "Pendidikan sebagai navigasi moral",
+        "teks": "Melalui pendidikan berbasis Firman TUHAN, murid diasah untuk mahir memilih yang benar di tengah dunia yang membingungkan. Kami memberikan “pegangan” yang benar dalam mengambil keputusan.",
+        "ayat": "“Firman-Mu itu pelita bagi kakiku dan terang bagi jalanku.”",
+        "ayat_ref": "Mazmur 119:105"
+      },
+      {
+        "judul": "Karakter sebagai latihan penyelamatan",
+        "teks": "Murid dilatih setiap hari lewat materi karakter dan petunjuk keputusan nyata, agar memiliki daya tahan rohani dan kepekaan nurani, tidak mudah terbakar oleh arus zaman, dan berdiri teguh sebagai pemenang.",
+        "ayat": "",
+        "ayat_ref": ""
+      }
+    ],
+    "nilai_judul": "14 Nilai Karakter",
+    "nilai_teks": "Ditanamkan dan dilatih setiap hari kepada murid melalui materi karakter dan keputusan nyata.",
+    "nilai": [
+      "Penuh perhatian",
+      "Kasih",
+      "Pengampunan",
+      "Ketaatan",
+      "Ketertiban",
+      "Kejujuran",
+      "Pengendalian diri",
+      "Tulus",
+      "Kebajikan",
+      "Inisiatif",
+      "Antusias",
+      "Kemurahan hati",
+      "Tanggung jawab",
+      "Tahu berterima kasih"
+    ]
+  },
+  "naungan": {
+    "label": "Naungan",
+    "judul": "Yayasan &",
+    "judul_sorot": "gereja naungan.",
+    "yayasan": {
+      "label": "Naungan Hukum",
+      "nama": "Yayasan Dian Pelita Kasih",
+      "logo": "assets/uploads/logo_ydpk.webp",
+      "isi": "Yayasan nirlaba yang diprakarsai aktivis Kristen dari berbagai gereja, dipersatukan oleh panggilan untuk melanjutkan visi Sekolah MBBN. Namanya mencerminkan kerinduan untuk dipakai sebagai alat (**dian**) oleh TUHAN, untuk menjamah (**pelita**) komunitas dengan esensi TUHAN sendiri (**kasih**).\n\n**Visi yayasan:** membangun generasi yang takut akan TUHAN dan berkarakter melalui pendidikan."
+    },
+    "gereja": {
+      "label": "Naungan Rohani",
+      "nama": "GSJA Jakarta Central Assembly",
+      "isi": "Secara rohani, Sekolah MBBN berada di bawah naungan GSJA Jakarta Central Assembly (JCA). Tudung rohani ini melindungi komunitas sekolah dari pengaruh ajaran yang menyimpang.",
+      "poin": [
+        "Terbuka sebagai gereja lokal bagi guru dan murid yang belum bergereja",
+        "Bahan renungan harian",
+        "Layanan konseling bagi guru dan murid"
+      ],
+      "ayat": "“Taatilah pemimpin-pemimpinmu… sebab mereka berjaga-jaga atas jiwamu.”",
+      "ayat_ref": "Ibrani 13:17"
+    }
+  }
+}

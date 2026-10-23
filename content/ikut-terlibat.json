@@ -1,0 +1,49 @@
+{
+  "banner": {
+    "judul": "Ikut Terlibat",
+    "teks": "Panggilan ini tidak bisa dikerjakan sendirian. Bersama kita melihat generasi yang bertumbuh dalam takut akan TUHAN dan dalam pengetahuan."
+  },
+  "cara": [
+    {
+      "judul": "Doa",
+      "teks": "Dukung pelayanan Sekolah MBBN dalam doa.",
+      "poin": [
+        "Murid dan keluarganya",
+        "Guru dan staf",
+        "Keberlanjutan sekolah"
+      ]
+    },
+    {
+      "judul": "Dana",
+      "teks": "Menopang operasional sekolah sehari-hari.",
+      "poin": [
+        "Donatur rutin (bulanan, semesteran, tahunan)",
+        "Orang Tua Asuh (sponsor anak)"
+      ]
+    },
+    {
+      "judul": "Daya",
+      "teks": "Berikan waktu dan jejaring Anda.",
+      "poin": [
+        "Relawan guru selama 1 tahun ajaran",
+        "Referral calon donatur, relawan, atau murid"
+      ]
+    }
+  ],
+  "rekening": {
+    "judul": "Salurkan dukungan Anda",
+    "teks": "Transfer ke rekening resmi yayasan:",
+    "bank": "BANK BCA",
+    "nomor": "002 801 7777",
+    "atas_nama": "Yayasan Dian Pelita Kasih",
+    "qris": "assets/uploads/qr.webp",
+    "qris_teks": "Bisa juga lewat QRIS\nYayasan Dian Pelita Kasih"
+  },
+  "ajakan": {
+    "label": "Saya Mau Terlibat",
+    "judul": "Mari melangkah bersama.",
+    "teks": "Ingin mendukung lewat doa, dana, atau daya? Isi formulir singkat kami, atau ngobrol dulu dengan tim sekolah lewat WhatsApp.",
+    "tombol": "Saya mau terlibat →",
+    "google_form": ""
+  }
+}
