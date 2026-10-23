@@ -51,4 +51,5 @@ Butuh Node.js 18 ke atas. Tidak ada dependensi yang perlu di-install.
 
 ## Mengubah desain
 
+
 Tampilan ada di `assets/style.css`, struktur halaman di `src/pages.mjs`, layout bersama di `src/lib.mjs`. Setelah menambah kolom baru di template, tambahkan juga kolomnya di `.pages.yml` supaya muncul di CMS.
