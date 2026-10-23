@@ -1,14 +1,3 @@
-
-
-Lewatkan ke konten
-Menggunakan Gmail dengan pembaca layar
-Percakapan
-98% dari 15 GB digunakan
-Persyaratan · Privasi · Kebijakan Program
-Aktivitas akun terakhir: 17 jam yang lalu
-Detail
-New Text Document.txt
-100%
 # Konfigurasi Pages CMS (app.pagescms.org) untuk website Sekolah MBBN
 media:
   input: assets/uploads
@@ -818,4 +807,3 @@ content:
           - name: "judul_sorot"
             label: "Judul (bagian berwarna biru)"
             type: "string"
-Menampilkan New Text Document.txt.
