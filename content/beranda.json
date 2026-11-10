@@ -10,7 +10,7 @@
     "teks": "Kami percaya lebih baik menjangkau anak sejak usia dini. Melalui pendidikan yang berpusat kepada Kristus dan pembentukan karakter setiap hari, kami mendampingi anak bertumbuh cerdas, berkarakter, dan takut akan TUHAN.",
     "tombol_daftar": "Daftar Sekarang →",
     "tombol_kunjungan": "Jadwalkan Kunjungan",
-    "foto": "assets/uploads/hero.webp",
+    "foto": "/assets/uploads/hero.webp",
     "foto_alt": "Murid MBBN bergandengan tangan membentuk lingkaran"
   },
   "tentang": {
@@ -19,8 +19,8 @@
     "judul_sorot": "panggilan hati.",
     "teks": "Sekolah MBBN berdiri pada Juli 2005 dengan 45 murid TK dari keluarga pra-sejahtera dan 8 guru. Kini kami melayani jenjang PAUD dan SD (PKBM) di Pluit, Jakarta Utara, sekaligus menjadi pusat pelatihan bagi guru dari berbagai daerah di Indonesia.",
     "tombol": "Selengkapnya tentang kami →",
-    "foto_besar": "assets/uploads/about.webp",
-    "foto_kecil": "assets/uploads/ibadah.webp"
+    "foto_besar": "/assets/uploads/IMG20260715105019.jpg",
+    "foto_kecil": "/assets/uploads/ibadah.webp"
   },
   "statistik": [
     {
