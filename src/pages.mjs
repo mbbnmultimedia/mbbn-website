@@ -1,5 +1,5 @@
 // Template tiap halaman. Desain ada di sini; isinya dari folder content/.
-import { e, inline, paras, hl, src, list, waLink, igLink, igHandle, mapsLink, closing, banner } from './lib.mjs';
+import { e, inline, paras, hl, src, list, waLink, igLink, igHandle, mapsLink, closing, banner, pos } from './lib.mjs';
 
 // ---------- potongan bersama ----------
 function buletinBlock(K, B) {
@@ -27,7 +27,7 @@ function newsCards(K, n) {
 }
 
 const alumniInfo = (a) => [a.angkatan ? 'Angkatan ' + a.angkatan : '', a.kegiatan ? 'kini ' + a.kegiatan : ''].filter(Boolean).join(' · ');
-const alumniPhoto = (a) => (a.foto ? `<img src="${e(src(a.foto))}" alt="${e(a.nama)}">` : e(String(a.nama || '?').charAt(0)));
+const alumniPhoto = (a) => (a.foto ? `<img src="${e(src(a.foto))}" alt="${e(a.nama)}"${pos(a.posisi_foto)}>` : e(String(a.nama || '?').charAt(0)));
 const alumniItems = (A) => list(A.items).filter((a) => a && a.nama);
 
 const ROHANI_ICONS = [
@@ -49,7 +49,7 @@ export function beranda({ S, D, P, K, B, A, T }) {
   const a0 = alumniItems(A)[0];
   const alumniHome = a0
     ? `      <div class="vc-pics reveal">
-        <div class="vc-pic on">${a0.foto ? `<img src="${e(src(a0.foto))}" alt="${e(a0.nama)}">` : '<img src="/assets/logo.png" alt="" style="height:auto;width:46%;align-self:center">'}</div>
+        <div class="vc-pic on">${a0.foto ? `<img class="cover" src="${e(src(a0.foto))}" alt="${e(a0.nama)}"${pos(a0.posisi_foto)}>` : '<img src="/assets/logo.png" alt="" style="height:auto;width:46%;align-self:center">'}</div>
       </div>
       <div class="reveal">
         <span class="eyebrow">${e(al.label)}</span>
@@ -77,8 +77,8 @@ export function beranda({ S, D, P, K, B, A, T }) {
   <div class="wrap">
     <div class="hero-txt">
       <div class="tag"><i>${e(h.label_tahun)}</i> ${e(h.label)}</div>
-      <p class="hname">${e(h.nama)}</p>
-      <h1>${e(h.judul)} <span>${e(h.judul_sorot)}</span></h1>
+      <h1 class="hname">${e(h.nama)}</h1>
+      <p class="htitle">${e(h.judul)} <span>${e(h.judul_sorot)}</span></p>
       ${h.ayat ? `<p class="hverse">${e(h.ayat)} <b>${e(h.ayat_ref)}</b></p>` : ''}
       <p class="lead">${e(h.teks)}</p>
       <div class="ctas">
@@ -88,7 +88,7 @@ export function beranda({ S, D, P, K, B, A, T }) {
     </div>
     <div class="hero-media">
       <div class="hero-img">
-        <div class="ph"><img src="${e(src(h.foto))}" alt="${e(h.foto_alt)}"></div>
+        <div class="ph"><img src="${e(src(h.foto))}" alt="${e(h.foto_alt)}"${pos(h.posisi_foto)}></div>
       </div>
     </div>
   </div>
@@ -114,7 +114,7 @@ ${misi}
   <div class="wrap">
     <div class="pic reveal">
       <div class="main"><img src="${e(src(t.foto_besar))}" alt="Murid dan guru MBBN"></div>
-      <div class="sm"><img src="${e(src(t.foto_kecil))}" alt="Kegiatan murid MBBN"></div>
+      <div class="sm"><img src="${e(src(t.foto_kecil))}" alt="Kegiatan murid MBBN"${pos(t.posisi_foto_kecil)}></div>
     </div>
     <div class="reveal">
       <span class="eyebrow">${e(t.label)}</span>

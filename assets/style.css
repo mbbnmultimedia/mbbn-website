@@ -64,8 +64,8 @@ header.solid .burger span{background:var(--navy)}
 .hero-txt{display:flex;flex-direction:column;justify-content:center}
 .hero .tag{align-self:flex-start;display:inline-flex;align-items:center;gap:10px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.35);padding:6px 14px 6px 6px;border-radius:999px;font-size:.84rem;font-weight:600;margin-bottom:22px}
 .hero .tag i{font-style:normal;background:#fff;color:var(--blue-2);border-radius:999px;padding:3px 11px;font-weight:800}
-.hero h1{color:#fff;font-weight:800;font-size:clamp(2.4rem,4.6vw,4rem);line-height:1.04;margin-bottom:20px}
-.hero h1 span{color:var(--navy)}
+.hero .htitle{font-family:var(--display);letter-spacing:-.01em;color:#fff;font-weight:800;font-size:clamp(2.4rem,4.6vw,4rem);line-height:1.04;margin-bottom:20px}
+.hero .htitle span{color:var(--navy)}
 .hero .lead{font-size:1.06rem;color:#eaf6fd;max-width:520px;margin-bottom:30px}
 .hero .ctas{display:flex;gap:14px;flex-wrap:wrap}
 header:not(.solid) nav .cta a{background:#fff;color:var(--navy)!important}
@@ -422,8 +422,8 @@ header nav .cta a{background:var(--blue)!important;color:#fff!important}
 header nav .cta a:hover{background:var(--blue-2)!important}
 .burger span{background:var(--navy)}
 .hero{padding:136px 0 96px}
-.hero .hname{font-weight:800;letter-spacing:.16em;text-transform:uppercase;font-size:.85rem;color:#d4effc;margin-bottom:10px}
-.hero h1{font-size:clamp(2.6rem,5.2vw,4.4rem);margin-bottom:14px}
+.hero .hname{font-family:'Plus Jakarta Sans',system-ui,sans-serif;line-height:1.5;font-weight:800;letter-spacing:.16em;text-transform:uppercase;font-size:.85rem;color:#d4effc;margin-bottom:10px}
+.hero .htitle{font-size:clamp(2.6rem,5.2vw,4.4rem);margin-bottom:14px}
 .hero .hverse{font-family:var(--display);font-weight:600;font-size:1.05rem;color:#eaf6fd;border-left:3px solid rgba(255,255,255,.7);padding-left:14px;margin-bottom:20px;max-width:520px}
 .hero .hverse b{color:var(--navy);white-space:nowrap}
 .vision{background:var(--navy)}
@@ -598,3 +598,9 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .ac.empty .aph img{object-fit:contain;padding:6px}
 .ac.empty blockquote{font-style:normal;color:var(--navy)}
 .vc-pic img{object-fit:cover}
+
+.vc-pic img.cover{width:100%;height:100%;max-width:100%;object-fit:cover}
+
+/* Kabar: buletin langsung terlihat di bawah banner */
+#buletin{padding-top:48px}#buletin .bul{margin-top:0}
+@media (max-width:700px){#buletin{padding-top:28px}}
