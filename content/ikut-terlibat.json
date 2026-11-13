@@ -36,14 +36,13 @@
     "bank": "BANK BCA",
     "nomor": "002 801 7777",
     "atas_nama": "Yayasan Dian Pelita Kasih",
-    "qris": "assets/uploads/qr.webp",
-    "qris_teks": "Bisa juga lewat QRIS\nYayasan Dian Pelita Kasih"
+    "qris": "/assets/uploads/qr.webp",
+    "qris_teks": "QRIS\nYayasan Dian Pelita Kasih"
   },
   "ajakan": {
     "label": "Saya Mau Terlibat",
     "judul": "Mari melangkah bersama.",
     "teks": "Ingin mendukung lewat doa, dana, atau daya? Isi formulir singkat kami, atau ngobrol dulu dengan tim sekolah lewat WhatsApp.",
-    "tombol": "Saya mau terlibat →",
-    "google_form": ""
+    "tombol": "Saya mau terlibat →"
   }
 }
